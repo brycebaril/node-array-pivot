@@ -1,0 +1,29 @@
+{
+  "name": "array-pivot",
+  "version": "0.0.0",
+  "description": "Pivot arrays of objects by key into a single object with a superset of keys containing arrays of each record's values.",
+  "main": "pivot.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:brycebaril/node-array-pivot.git"
+  },
+  "keywords": [
+    "pivot",
+    "pivottable",
+    "table"
+  ],
+  "author": "Bryce B. Baril",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brycebaril/node-array-pivot/issues"
+  },
+  "devDependencies": {
+    "tape": "~1.1.0"
+  }
+}
