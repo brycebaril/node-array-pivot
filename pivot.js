@@ -14,6 +14,7 @@ function pivot(recordSet) {
     aaa: [12]}
    */
   var pivoted = {}
+  if (recordSet == null) return pivoted
   recordSet.forEach(function (record) {
     Object.keys(record).forEach(function (key) {
       if (!pivoted[key]) pivoted[key] = []

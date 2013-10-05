@@ -17,3 +17,12 @@ test("pivot", function (t) {
   t.deepEquals(pivot(data), expected, "Pivoted data matches")
   t.end()
 })
+
+test("pivot empty", function (t) {
+  var data = undefined
+
+  var expected = {}
+
+  t.deepEquals(pivot(data), expected, "Pivoted data matches")
+  t.end()
+})
