@@ -3,6 +3,9 @@ array-pivot
 
 [![NPM](https://nodei.co/npm/array-pivot.png)](https://nodei.co/npm/array-pivot/)
 
+[![david-dm](https://david-dm.org/brycebaril/array-pivot.png)](https://david-dm.org/brycebaril/array-pivot/)
+[![david-dm](https://david-dm.org/brycebaril/array-pivot/dev-status.png)](https://david-dm.org/brycebaril/array-pivot#info=devDependencies/)
+
 Pivot arrays of objects by key into a single object with a superset of keys containing arrays of each record's values. Similar to a pivot table in a spreadsheet.
 
 ```javascript
