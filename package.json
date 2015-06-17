@@ -24,6 +24,7 @@
     "url": "https://github.com/brycebaril/node-array-pivot/issues"
   },
   "devDependencies": {
-    "tape": "~2.4.0"
-  }
+    "tape": "~4.0.0"
+  },
+  "homepage": "https://github.com/brycebaril/node-array-pivot"
 }
